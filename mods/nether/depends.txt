@@ -1,5 +1,6 @@
 stairs
 default
+fire
 moreblocks?
 mesecons?
 loot?

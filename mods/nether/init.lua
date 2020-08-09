@@ -125,9 +125,9 @@ end
 dofile(nether.path .. "/portal_examples.lua")
 
 
--- Portals are ignited by right-clicking with a mese crystal fragment
+-- Portals are ignited by right-clicking with a flint and steel
 nether.register_portal_ignition_item(
-	"default:mese_crystal_fragment",
+	"fire:flint_and_steel",
 	{name = "nether_portal_ignition_failure", gain = 0.3}
 )
 
